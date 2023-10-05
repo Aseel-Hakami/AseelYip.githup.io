@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+<title></title>
+</head>
+<bode>
+<h1>Homework3</h1>
+<p>Result Come Here...</p>
+ <table>
+ <form name="my"> 
+ 
+<tr>
+ 
+<td>Value 1</td>
+ 
+<td> <input type="text" name="A" ></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>Value 2</td>
+ 
+<td> <input type="text" name="B" ></td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td></td>
+ 
+<td>
+ 
+<input type="button" name="" value="+" onclick="add()">
+ 
+<input type="button" name="" value="-" onclick="subtract()" >
+ 
+<input type="button" name="" value="*" onclick="multiply()" >
+ 
+<input type="button" name="" value="/" onclick="divide()" >
+ 
+</td>
+ 
+</tr>
+ 
+<tr>
+ 
+<td>Resuit</td>
+ 
+<td><input type="text" name="C"></td>
+ 
+</tr>
+ </from>
+</table>
+<script>
+ 
+function add(){
+ A=parseInt(my.A.value);
+ 
+B=parseInt(my.B.value);
+ 
+C=A+B;
+ my.C.value=C;
+ }
+ function subtract(){
+ A=parseInt(my.A.value);
+ 
+B=parseInt(my.B.value);
+ 
+C=A-B;
+ my.C.value=C;
+ }
+ function multiply(){
+ A=parseInt(my.A.value);
+ 
+B=parseInt(my.B.value);
+ 
+C=A*B;
+ my.C.value=C;
+ } function divide(){
+ A=parseInt(my.A.value);
+ 
+B=parseInt(my.B.value);
+ 
+C=A/B;
+ my.C.value=C;
+ }
+</script>
+</body>
+</html>
